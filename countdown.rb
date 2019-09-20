@@ -8,6 +8,7 @@ loop do
 end
   "Happy New Year"
 end
+end
 
 def countdown_with_sleep
   countdown_with_sleep = 12
