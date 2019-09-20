@@ -1,11 +1,10 @@
 #write your code here
 countdown = 10
 def countdown
-
-while countdown > 0
-  puts "#{countdown} seconds"
-  countdown -= 1
-end
+loop do
+  while countdown > 0
+    puts "#{countdown} seconds"
+    countdown -= 1
   "Happy New Year"
 end
 
