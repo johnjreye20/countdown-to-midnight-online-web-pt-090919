@@ -1,5 +1,5 @@
 #write your code here
-counter = 10
+countdown = 10
 def countdown(n)
 loop do
   while countdown < 10
