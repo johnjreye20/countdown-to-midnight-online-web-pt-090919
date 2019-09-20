@@ -1,9 +1,9 @@
 #write your code here
-countdown = 10
+
 def countdown(n)
 loop do
   while countdown < 10
-    countdown -= 1
+    counter -= 1
     puts "#{countdown} seconds"
 end
   "Happy New Year"
