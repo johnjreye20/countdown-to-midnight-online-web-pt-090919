@@ -1,6 +1,6 @@
 #write your code here
 countdown = 10
-def countdown
+def countdown(n)
 loop do
   while countdown < 10
     puts "#{countdown} seconds"
