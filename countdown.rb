@@ -12,7 +12,7 @@ def countdown_with_sleep(seconds_to_midnight)
   while seconds_to_midnight > 0
     puts "#{seconds_to_midnight}" > 0
     seconds_to_midnight -= 1
-    countdown_with_sleep(5)
+    sleep(5)
   end
   "Happy New Year"
 end
