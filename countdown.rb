@@ -5,6 +5,7 @@ loop do
   while countdown > 0
     puts "#{countdown} seconds"
     countdown -= 1
+end
   "Happy New Year"
 end
 
