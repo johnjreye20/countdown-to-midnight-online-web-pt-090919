@@ -6,7 +6,7 @@ loop do
     counter -= 1
     puts "#{countdown} seconds"
 end
-  "Happy New Year"
+  expect { countdown(10) }.to output ("Happy New Year")
 end
 end
 
