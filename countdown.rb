@@ -3,8 +3,8 @@ countdown = 10
 def countdown(n)
 loop do
   while countdown < 10
-    puts "#{countdown} seconds"
     countdown -= 1
+    puts "#{countdown} seconds"
 end
   "Happy New Year"
 end
