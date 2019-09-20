@@ -2,7 +2,7 @@
 countdown = 10
 def countdown
 loop do
-  while countdown > 0
+  while countdown < 10
     puts "#{countdown} seconds"
     countdown -= 1
 end
